@@ -86,7 +86,7 @@ The `<accounts>` sub-configuration stores information about each account on the 
 The `multiplicity="*"` allows us to have multiple accounts simultaneously, and `type="Map"` allows us to access accounts by using the `<id>` as a key.
 For example, `eei.accounts[0x0001].nonce` would access the nonce of account `0x0001`.
 
-Similar to the `<callState>`, the an `<account>` state can be saved or restored on the `<accountStack>` cell.
+Similar to the `<callState>`, an `<account>` state can be saved or restored on the `<accountStack>` cell.
 
 ```k
         <accounts>
